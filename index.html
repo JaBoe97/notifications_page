@@ -10,19 +10,109 @@
       sizes="32x32"
       href="./assets/images/favicon-32x32.png"
     />
+    <!--favicon-->
 
     <title>Frontend Mentor | Notifications page</title>
   </head>
+
   <body>
-    Notifications 3 Mark all as read Mark Webber reacted to your recent post My
-    first tournament today! 1m ago Angela Gray followed you 5m ago Jacob
-    Thompson has joined your group Chess Club 1 day ago Rizky Hasanuddin sent
-    you a private message 5 days ago Hello, thanks for setting up the Chess
-    Club. I've been a member for a few weeks now and I'm already having lots of
-    fun and improving my game. Kimberly Smith commented on your picture 1 week
-    ago Nathan Peterson reacted to your recent post 5 end-game strategies to
-    increase your win rate 2 weeks ago Anna Kim left the group Chess Club 2
-    weeks ago
+    <div class="main-div">
+      <h1>Notifications</h1>
+      3
+      <button>Mark all as read</button>
+
+      <div class="grid-container">
+        <!--attribute unread toggle-->
+        <div class="item1">
+          <img src="assets/images/avatar-mark-webber.webp" />
+        </div>
+        <div class="item2">
+          <span class="name"> Mark Webber</span> reacted to your recent post
+          <span class="post">My first tournament today!</span>
+          <div class="notification-dot"></div>
+          <span class="time">1m ago</span>
+        </div>
+      </div>
+
+      <div class="grid-container">
+        <div class="item1">
+          <img src="assets/images/avatar-angela-gray.webp" />
+        </div>
+        <div class="item2">
+          <span class="name">Angela Gray</span> followed you
+          <div class="notification-dot"></div>
+          <span class="time">5m ago</span>
+        </div>
+      </div>
+
+      <div class="grid-container">
+        <div class="item1">
+          <img src="assets/images/avatar-jacob-thompson.webp" />
+        </div>
+        <div class="item2">
+          <span class="name">Jacob Thompson</span> has joined your group
+          <span class="group">Chess Club</span>
+          <div class="notification-dot"></div>
+          <span class="time">1 day ago</span>
+        </div>
+      </div>
+
+      <div class="grid-container">
+        <div class="item1">
+          <img src="assets/images/avatar-rizky-hasanuddin.webp" />
+        </div>
+        <div class="item2">
+          <span class="name">Rizky Hasanuddin</span> sent you a private message
+          <div class="notification-dot"></div>
+          <span class="time">5 days ago</span>
+          <p>
+            Hello, thanks for setting up the Chess Club. I've been a member for
+            a few weeks now and I'm already having lots of fun and improving my
+            game.
+          </p>
+        </div>
+      </div>
+
+      <div class="grid-container">
+        <div class="item1">
+          <img src="assets/images/avatar-kimberly-smith.webp" />
+        </div>
+        <div class="item2">
+          <span class="name">Kimberly Smith</span> commented on your picture
+          <div class="notification-dot"></div>
+          <span class="time">1 week ago</span>
+        </div>
+        <div class="item3">
+          <img src="assets/images/image-chess.webp" alt="your picture" />
+        </div>
+      </div>
+
+      <div class="grid-container">
+        <div class="item1">
+          <img src="assets/images/avatar-nathan-peterson.webp" />
+        </div>
+        <div class="item2">
+          <span class="name">Nathan Peterson</span> reacted to your recent post
+          <span class="post"
+            >5 end-game strategies to increase your win rate</span
+          >
+          <div class="notification-dot"></div>
+          <span class="time">2 weeks ago</span>
+        </div>
+      </div>
+
+      <div class="grid-container">
+        <div class="item1">
+          <img src="assets/images/avatar-anna-kim.webp" />
+        </div>
+        <div class="item2">
+          <span class="name">Anna Kim</span> left the group
+          <span class="group">Chess Club</span>
+          <div class="notification-dot"></div>
+          <span class="time">2 weeks ago</span>
+        </div>
+      </div>
+    </div>
 
     <div class="attribution">
       Challenge by
