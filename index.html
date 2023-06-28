@@ -17,54 +17,59 @@
 
   <body>
     <div class="main-div">
-      <h1>Notifications</h1>
-      3
-      <button>Mark all as read</button>
+      <div class="header">
+        <div>
+          <h1>Notifications</h1>
+          <div class="number">3</div>
+        </div>
+        <div>
+          <button>Mark all as read</button>
+        </div>
+      </div>
 
-      <div class="grid-container">
-        <!--attribute unread toggle-->
+      <div class="grid-container unread">
         <div class="item1">
           <img src="assets/images/avatar-mark-webber.webp" />
         </div>
         <div class="item2">
-          <span class="name"> Mark Webber</span> reacted to your recent post
-          <span class="post">My first tournament today!</span>
-          <div class="notification-dot"></div>
-          <span class="time">1m ago</span>
+          <a class="name" href="#"> Mark Webber</a> reacted to your recent post
+          <a class="post" href="#">My first tournament today!</a>
+          <span class="notification-dot"></span>
+          <div class="time">1m ago</div>
         </div>
       </div>
 
-      <div class="grid-container">
+      <div class="grid-container unread">
         <div class="item1">
           <img src="assets/images/avatar-angela-gray.webp" />
         </div>
         <div class="item2">
-          <span class="name">Angela Gray</span> followed you
-          <div class="notification-dot"></div>
-          <span class="time">5m ago</span>
+          <a class="name" href="#">Angela Gray</a> followed you
+          <span class="notification-dot"></span>
+          <div class="time">5m ago</div>
         </div>
       </div>
 
-      <div class="grid-container">
+      <div class="grid-container unread">
         <div class="item1">
           <img src="assets/images/avatar-jacob-thompson.webp" />
         </div>
         <div class="item2">
-          <span class="name">Jacob Thompson</span> has joined your group
-          <span class="group">Chess Club</span>
-          <div class="notification-dot"></div>
-          <span class="time">1 day ago</span>
+          <a class="name" href="#">Jacob Thompson</a> has joined your group
+          <a class="group" href="#">Chess Club</a>
+          <span class="notification-dot"></span>
+          <div class="time">1 day ago</div>
         </div>
       </div>
 
       <div class="grid-container">
-        <div class="item1">
+        <div class="item1" style="margin-top: 0">
           <img src="assets/images/avatar-rizky-hasanuddin.webp" />
         </div>
         <div class="item2">
-          <span class="name">Rizky Hasanuddin</span> sent you a private message
-          <div class="notification-dot"></div>
-          <span class="time">5 days ago</span>
+          <a class="name" href="#">Rizky Hasanuddin</a> sent you a private
+          message
+          <div class="time">5 days ago</div>
           <p>
             Hello, thanks for setting up the Chess Club. I've been a member for
             a few weeks now and I'm already having lots of fun and improving my
@@ -73,18 +78,17 @@
         </div>
       </div>
 
-      <div class="grid-container">
+      <div class="grid-container2">
         <div class="item1">
           <img src="assets/images/avatar-kimberly-smith.webp" />
         </div>
         <div class="item2">
-          <span class="name">Kimberly Smith</span> commented on your picture
-          <div class="notification-dot"></div>
-          <span class="time">1 week ago</span>
+          <a class="name" href="#">Kimberly Smith</a> commented on your picture
+          <div class="time">1 week ago</div>
         </div>
-        <div class="item3">
+        <a class="item3" href="#">
           <img src="assets/images/image-chess.webp" alt="your picture" />
-        </div>
+        </a>
       </div>
 
       <div class="grid-container">
@@ -92,12 +96,12 @@
           <img src="assets/images/avatar-nathan-peterson.webp" />
         </div>
         <div class="item2">
-          <span class="name">Nathan Peterson</span> reacted to your recent post
-          <span class="post"
-            >5 end-game strategies to increase your win rate</span
+          <a class="name" href="#">Nathan Peterson</a> reacted to your recent
+          post
+          <a class="post" href="#"
+            >5 end-game strategies to increase your win rate</a
           >
-          <div class="notification-dot"></div>
-          <span class="time">2 weeks ago</span>
+          <div class="time">2 weeks ago</div>
         </div>
       </div>
 
@@ -106,10 +110,9 @@
           <img src="assets/images/avatar-anna-kim.webp" />
         </div>
         <div class="item2">
-          <span class="name">Anna Kim</span> left the group
-          <span class="group">Chess Club</span>
-          <div class="notification-dot"></div>
-          <span class="time">2 weeks ago</span>
+          <a class="name" href="#">Anna Kim</a> left the group
+          <a class="group" href="#">Chess Club</a>
+          <div class="time">2 weeks ago</div>
         </div>
       </div>
     </div>
@@ -119,6 +122,7 @@
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
       >. Coded by <a href="#">Jana</a>.
+      <!--Link Jana-->
     </div>
   </body>
 </html>
