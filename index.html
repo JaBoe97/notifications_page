@@ -13,17 +13,19 @@
     <!--favicon-->
 
     <title>Frontend Mentor | Notifications page</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
   </head>
 
   <body>
-    <div class="main-div">
+    <main>
       <div class="header">
         <div>
           <h1>Notifications</h1>
-          <div class="number">3</div>
+          <div id="count" class="number"></div>
         </div>
         <div>
-          <button>Mark all as read</button>
+          <button class="unread-toggle">Mark all as read</button>
         </div>
       </div>
 
@@ -115,14 +117,14 @@
           <div class="time">2 weeks ago</div>
         </div>
       </div>
-    </div>
+    </main>
 
-    <div class="attribution">
+    <footer class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
       >. Coded by <a href="#">Jana</a>.
       <!--Link Jana-->
-    </div>
+    </footer>
   </body>
 </html>

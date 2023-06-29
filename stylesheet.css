@@ -22,7 +22,7 @@ html {
   background-color: var(--Light-grayish-blue-2);
 }
 
-.main-div {
+main {
   font-family: "Plus Jakarta Sans", sans-serif;
   max-width: 44%;
   font-size: 16px;
@@ -55,7 +55,7 @@ p {
   text-decoration: none;
 }
 .name,
-button,
+.unread-toggle,
 .number {
   color: var(--Very-dark-blue);
 }
@@ -109,7 +109,7 @@ button,
   color: var(--Dark-grayish-blue);
 }
 
-button {
+.unread-toggle {
   display: inline;
   vertical-align: middle;
   border: none;
