@@ -4,14 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="stylesheet.css" />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./assets/images/favicon-32x32.png"
-    />
-    <!--favicon-->
-
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
     <title>Frontend Mentor | Notifications page</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script type="text/javascript" src="main.js"></script>
@@ -24,7 +17,7 @@
           <h1>Notifications</h1>
           <div id="count" class="number"></div>
         </div>
-        <div>
+        <div class="unread-toggle-div">
           <button class="unread-toggle">Mark all as read</button>
         </div>
       </div>
@@ -65,14 +58,14 @@
       </div>
 
       <div class="grid-container">
-        <div class="item1" style="margin-top: 0">
+        <div class="item1">
           <img src="assets/images/avatar-rizky-hasanuddin.webp" />
         </div>
         <div class="item2">
           <a class="name" href="#">Rizky Hasanuddin</a> sent you a private
           message
           <div class="time">5 days ago</div>
-          <p>
+          <p class="private-message">
             Hello, thanks for setting up the Chess Club. I've been a member for
             a few weeks now and I'm already having lots of fun and improving my
             game.
@@ -88,8 +81,12 @@
           <a class="name" href="#">Kimberly Smith</a> commented on your picture
           <div class="time">1 week ago</div>
         </div>
-        <a class="item3" href="#">
-          <img src="assets/images/image-chess.webp" alt="your picture" />
+        <a href="#">
+          <img
+            class="img-shadow"
+            src="assets/images/image-chess.webp"
+            alt="your picture"
+          />
         </a>
       </div>
 
@@ -123,8 +120,7 @@
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Jana</a>.
-      <!--Link Jana-->
+      >. Coded by <a href="https://github.com/JaBoe97">Jana</a>.
     </footer>
   </body>
 </html>
